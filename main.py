@@ -28,7 +28,7 @@ async def proxy_request(request_data: RequestModel):
         if method not in ["GET", "POST", "PUT", "DELETE", "PATCH", "HEAD", "OPTIONS"]:
             raise HTTPException(status_code=400, detail="Unsupported HTTP method")
 
-        async with httpx.AsyncClient() as client:
+        async with httpx.AsyncClient(verify=False) as client:
             response = await client.request(
                 method=method,
                 url=request_data.url,

@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04c29c81-1ad1-4fdf-be6e-9d0e2110fd51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fastapi-proxy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_main.http" afterDir="false" />
+    <list default="true" id="04c29c81-1ad1-4fdf-be6e-9d0e2110fd51" name="Changes" comment="Add FastAPI proxy service with Docker and IDE configurations&#10;&#10;This commit introduces a new FastAPI-based HTTP proxy service along with its respective Dockerfile for containerization. Included are essential files such as `main.py`, `requirements.txt`, `.gitignore`, HTTP test scripts, and IDE-specific configuration files for PyCharm.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ameyer117"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:ameyer117/fastapi_proxy.git",
+    "accountId": "918fd663-d2a6-4557-a69c-8191d6bf4411"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -148,12 +152,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729690951228</updated>
-      <workItem from="1729690958871" duration="776000" />
+      <workItem from="1729690958871" duration="3131000" />
     </task>
+    <task id="LOCAL-00001" summary="Add FastAPI proxy service with Docker and IDE configurations&#10;&#10;This commit introduces a new FastAPI-based HTTP proxy service along with its respective Dockerfile for containerization. Included are essential files such as `main.py`, `requirements.txt`, `.gitignore`, HTTP test scripts, and IDE-specific configuration files for PyCharm.">
+      <option name="closed" value="true" />
+      <created>1729691751266</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729691751266</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add FastAPI proxy service with Docker and IDE configurations&#10;&#10;This commit introduces a new FastAPI-based HTTP proxy service along with its respective Dockerfile for containerization. Included are essential files such as `main.py`, `requirements.txt`, `.gitignore`, HTTP test scripts, and IDE-specific configuration files for PyCharm." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add FastAPI proxy service with Docker and IDE configurations&#10;&#10;This commit introduces a new FastAPI-based HTTP proxy service along with its respective Dockerfile for containerization. Included are essential files such as `main.py`, `requirements.txt`, `.gitignore`, HTTP test scripts, and IDE-specific configuration files for PyCharm." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/fastapi_proxy$main.coverage" NAME="main Coverage Results" MODIFIED="1729691105164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
